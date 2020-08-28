@@ -11,4 +11,4 @@ there are several limitations on this project
 
 
 
-on this project, I will be using XGBoost Regressor because it turned out to be the one that returns the lowest false positive rate.
+on this project, I will be using XGBoost Classifierbecause it turned out to be the one that returns the lowest false positive rate.
