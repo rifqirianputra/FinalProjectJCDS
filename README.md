@@ -11,4 +11,7 @@ there are several limitations on this project
 
 
 
-on this project, I will be using XGBoost Classifierbecause it turned out to be the one that returns the lowest false positive rate.
+on this project, I will be using XGBoost Classifier because it turned out to be the one that returns the lowest false positive rate.
+
+<b><u>IMPORTANT NOTE</b></u>
+to make the notebook run properly, please extract "Dataset Raw.7z","Dataset Non_Null.7z", and "Dataset Cleaned.7z" and paste it under Notebooks and CSV folder
