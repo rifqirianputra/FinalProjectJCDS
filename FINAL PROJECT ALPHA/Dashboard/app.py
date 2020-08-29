@@ -12,44 +12,43 @@ def result():
     if request.method=='POST':
         input = request.form
         a = float(input['a'])
-        b = float(input['b'])
         c = float(input['c'])
         d = input['d']
         e = float(input['e'])
 
         if d == 'Category: Art':
-            d1 = [a,b,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,e]
+            d1 = [a,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,e]
         elif d == 'Category: Comics':
-            d1 = [a,b,c,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,e]
+            d1 = [a,c,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,e]
         elif d == 'Category: Crafts':
-            d1 = [a,b,c,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,e]
+            d1 = [a,c,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,e]
         elif d == 'Category: Dance':
-            d1 = [a,b,c,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,e]
+            d1 = [a,c,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,e]
         elif d == 'Category: Design':
-            d1 = [a,b,c,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,e]
+            d1 = [a,c,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,e]
         elif d == 'Category: Fashion':
-            d1 = [a,b,c,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,e]
+            d1 = [a,c,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,e]
         elif d == 'Category: Film and Video':
-            d1 = [a,b,c,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,e]
+            d1 = [a,c,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,e]
         elif d == 'Category: Food':
-            d1 = [a,b,c,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,e]
+            d1 = [a,c,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,e]
         elif d == 'Category: Games':
-            d1 = [a,b,c,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,e]
+            d1 = [a,c,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,e]
         elif d == 'Category: Journalism':
-            d1 = [a,b,c,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,e]
+            d1 = [a,c,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,e]
         elif d == 'Category: Music':
-            d1 = [a,b,c,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,e]
+            d1 = [a,c,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,e]
         elif d == 'Category: Photography':
-            d1 = [a,b,c,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,e]
+            d1 = [a,c,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,e]
         elif d == 'Category: Publishing':
-            d1 = [a,b,c,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,e]
+            d1 = [a,c,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,e]
         elif d == 'Category: Technology':
-            d1 = [a,b,c,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,e]
+            d1 = [a,c,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,e]
         elif d == 'Category: Theater':
-            d1 = [a,b,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,e]
+            d1 = [a,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,e]
         else:
             pass
-        kolom = ['backers', 'usd_pledged_real', 'usd_goal_real', 'time_avail',
+        kolom = ['backers', 'usd_goal_real', 'time_avail',
        'main_category_Art', 'main_category_Comics', 'main_category_Crafts',
        'main_category_Dance', 'main_category_Design', 'main_category_Fashion',
        'main_category_Film & Video', 'main_category_Food',
