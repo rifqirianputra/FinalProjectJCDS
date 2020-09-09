@@ -13,21 +13,34 @@ there are several limitations on this project
 
 on this project, I will be using Logistic Regression because it turned out to be the one that returns the lowest false positive rate.
 <b>1. Dataset</b>
-![Capture](https://user-images.githubusercontent.com/64766681/92573715-602dc680-f2b0-11ea-9036-0e6006d9d822.JPG)
+![Capture](https://user-images.githubusercontent.com/64766681/92573715-602dc680-f2b0-11ea-9036-0e6006d9d822.JPG)<br>
 
-<u>name</u>						: the name column is basically the name of the campaign. will be dropped later on.
-<u>category</u>				: the subcategory of the campaign
-<u>main_category</u>		: the main category of the campaign
-<u>currency</u>				: the currency based on the origin of the campaign
-<u>deadline</u>				: the end of the campaign time, set by the campaigner
-<u>goal</u>						: the goal of the campaign, in local currency
-<u>launched</u>				: the time of the campaign started going live
-<u>pledged</u>				: the final recorded amount of money pledged, in local currency
-<u>backers</u>					: the final recorded number of backers
-<u>country</u>					: the campaign's country of origin
-<u>usd pledged</u>		: the final recorded amount of money pledged, in USD, converted manually
-<u>usd_pledged_real</u>		: the final recorded amount of money pledged, in USD, converted using fixer.io API
-<u>usd_goal_real</u>		: the goal of the campaign, in USD
+<u>name</u>						: the name column is basically the name of the campaign. will be dropped later on.<br>
+
+<u>category</u>				: the subcategory of the campaign<br>
+
+<u>main_category</u>		: the main category of the campaign<br>
+
+<u>currency</u>				: the currency based on the origin of the campaign<br>
+
+<u>deadline</u>				: the end of the campaign time, set by the campaigner<br>
+
+<u>goal</u>						: the goal of the campaign, in local currency<br>
+
+<u>launched</u>				: the time of the campaign started going live<br>
+
+<u>pledged</u>				: the final recorded amount of money pledged, in local currency<br>
+
+<u>backers</u>					: the final recorded number of backers<br>
+
+<u>country</u>					: the campaign's country of origin<br>
+
+<u>usd pledged</u>		: the final recorded amount of money pledged, in USD, converted manually<br>
+
+<u>usd_pledged_real</u>		: the final recorded amount of money pledged, in USD, converted using fixer.io API<br>
+
+<u>usd_goal_real</u>		: the goal of the campaign, in USD<br>
+
 
 <b> Dropped Columns </b>
 *DROPPING 'usd pledged'*
