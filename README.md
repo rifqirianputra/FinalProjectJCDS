@@ -91,15 +91,15 @@ and since there are two features that are relatively having strong association w
 backers need to be kept because backers are the backbone and cannot be parted with any crowdfunding platform like Kickstarter and any other similar platform (Indiegogo and KitaBisa for example). Backers also could reflect the success of the campaigner's marketing campaign of their product.
 
 *the final dataset*
-before categorical values encoded using get_dummies
+before categorical values encoded using get_dummies<br>
 ![Capture 3](https://user-images.githubusercontent.com/64766681/92575588-b56ad780-f2b2-11ea-9075-7a83a331c5dd.JPG)
+<br><br>
+<b>3. Modelling</b><br>
+![Capture 4](https://user-images.githubusercontent.com/64766681/92575913-15617e00-f2b3-11ea-963e-de4c53b35bd5.JPG)<br>
+![Capture 2](https://user-images.githubusercontent.com/64766681/92575818-fa8f0980-f2b2-11ea-9dc2-020bf1a201b8.JPG)<br>
 
-<b>3. Modelling</b>
-![Capture 4](https://user-images.githubusercontent.com/64766681/92575913-15617e00-f2b3-11ea-963e-de4c53b35bd5.JPG)
-![Capture 2](https://user-images.githubusercontent.com/64766681/92575818-fa8f0980-f2b2-11ea-9dc2-020bf1a201b8.JPG)
-
-![Capture 6](https://user-images.githubusercontent.com/64766681/92576054-3f1aa500-f2b3-11ea-8549-f1df47dcd40a.JPG)
-![Capture 5](https://user-images.githubusercontent.com/64766681/92576057-404bd200-f2b3-11ea-806f-614592968aff.JPG)
+![Capture 6](https://user-images.githubusercontent.com/64766681/92576054-3f1aa500-f2b3-11ea-8549-f1df47dcd40a.JPG)<br>
+![Capture 5](https://user-images.githubusercontent.com/64766681/92576057-404bd200-f2b3-11ea-806f-614592968aff.JPG)<br>
 
 
 
