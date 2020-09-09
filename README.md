@@ -1,4 +1,5 @@
 
+
 # FinalProjectJCDS
 <b> Final Project JCDS Purwadhika </b><br>
 <u>Predicting the success and failure of campaigns on Kickstarter</u>
@@ -80,22 +81,25 @@ however, the state undefined is unclear. there is no information on what is unde
 convert to datetime and remove the timestamp, plus adding a new feature to calculate total dates available between launched and deadline
 
 
+<b>2. Feature Selection</b>
+![Capture 1](https://user-images.githubusercontent.com/64766681/92575516-9ff5ad80-f2b2-11ea-9677-eda4d627e0f2.JPG)
 
+i removed (drop) name, country, deadline, and launched as the four least associated with state. on top of that, i will also remove category. despite category have a moderate association with state, encoding category is going to slow down computations, and I will use main_category as the feature to represent the whole category..
 
+and since there are two features that are relatively having strong association with the target variable, I will choose to drop usd_pledged_real over backers. backers could represent itself as a variable, white usd_pledged_real could only represent if the number of amount of a certain campaign divided with the number of campaigners to get the average money pledged per person. while it is still unfair because every campaign will set their product at a different prices per package. (a USD200 gadget could be considered affordable compared to a USD100 table napkin)
 
+backers need to be kept because backers are the backbone and cannot be parted with any crowdfunding platform like Kickstarter and any other similar platform (Indiegogo and KitaBisa for example). Backers also could reflect the success of the campaigner's marketing campaign of their product.
 
+*the final dataset*
+before categorical values encoded using get_dummies
+![Capture 3](https://user-images.githubusercontent.com/64766681/92575588-b56ad780-f2b2-11ea-9075-7a83a331c5dd.JPG)
 
+<b>3. Modelling</b>
+![Capture 4](https://user-images.githubusercontent.com/64766681/92575913-15617e00-f2b3-11ea-963e-de4c53b35bd5.JPG)
+![Capture 2](https://user-images.githubusercontent.com/64766681/92575818-fa8f0980-f2b2-11ea-9dc2-020bf1a201b8.JPG)
 
-
-
-
-
-
-
-
-
-
-
+![Capture 6](https://user-images.githubusercontent.com/64766681/92576054-3f1aa500-f2b3-11ea-8549-f1df47dcd40a.JPG)
+![Capture 5](https://user-images.githubusercontent.com/64766681/92576057-404bd200-f2b3-11ea-806f-614592968aff.JPG)
 
 
 
