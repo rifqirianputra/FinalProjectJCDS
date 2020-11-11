@@ -1,6 +1,6 @@
 
 
-# FinalProjectJCDS
+# Kickstarter Success and Failure Prediction
 <b> Final Project JCDS Purwadhika </b><br>
 <u>Predicting the success and failure of campaigns on Kickstarter</u>
 
